@@ -18,6 +18,16 @@ const messages = [
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Message board', messages: messages });
+  // res.next();
+});
+
+router.get('/new', function(req, res, next) {
+  res.render('form', {title: 'Enter Your Message'});
+});
+
+router.post('/new', function(req, res, next) {
+  let auth = req.body;
+  // console.log(auth);
 });
 
 module.exports = router;
