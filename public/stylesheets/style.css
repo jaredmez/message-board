@@ -6,3 +6,26 @@ body {
 a {
   color: #00B7FF;
 }
+
+.mainBtn {
+  color: rgb(202, 232, 241);
+  background-color: grey; 
+  text-decoration: none;
+  border: 2px solid rgb(223, 218, 218);
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  margin-bottom:10px;
+  padding: 5px 5px;
+  border-radius: 3px;
+
+}
+
+a.mainBtn:hover {
+  background-color:rgb(32, 30, 30);
+}
+
+.msgContainer {
+
+  border: 1px solid gray;
+}
