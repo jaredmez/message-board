@@ -18,7 +18,6 @@ const messages = [
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Message board', messages: messages });
-  // res.send('testing');
 });
 
 router.post('/new', function(req, res, next) {
